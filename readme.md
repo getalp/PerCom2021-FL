@@ -1,6 +1,6 @@
 
 ## Federated Distance (FedDist)
-This is the code accompanying the Percom2021 paper "A Federated Learning Aggregation Algorithm for Pervasive Computing: Evaluation and Comparison"
+This is the code accompanying the Percom2021 paper "A Federated Learning Aggregation Algorithm for Pervasive Computing: Evaluation and Comparison" and the code of federated learning experiment by Sannara Ek during his master thesis.
 
 ### Overview
 ---
@@ -57,3 +57,9 @@ The  final  server  model  is  saved  in  a .h5format.  The  recorded  training 
 ```
 Sannara Ek, François Portet, Philippe Lalanda, and German Vega. A federated learning ag-gregation algorithm for pervasive computing:  Evaluation and comparison.  In2021 IEEEInternational Conference on Pervasive Computing and Communications (PerCom) (Per-Com 2021), Kassel, Germany, March 2021.
 ```
+
+### Contact:
+---
+Please contact the authors by [firstname].[lastname]@univ-grenoble-alpes.fr if you have issues with the code.
+
+To contact Sannara Ek, Please use [firstname].[lastname]@gmail.com
