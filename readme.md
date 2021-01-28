@@ -33,6 +33,16 @@ For all the federated algorithms, the second cell gives a variety of options and
 
 If preferred to run as a python script, convert the files to a .py format VIA Jupiter notebook. Simply specify the wanted parameters in the second cell beforehand.
 
+### Results Interpretability
+All results of each experiments shall generated the "savedModels" folder. Within this folder will contain subfolders with the name of the chosen configuration and model architecture of the experiment. Additionally, within each model architecture folder will contain the another subfolder with the name of the dataset used for the experiment. E.g a directory should appear somethings as:
+```
+./savedModels/FED_5C_10LE_50CR_400D_100D_BALANCED/UCI
+```
+
+Now within this folder:
+
+The  final  server  model  is  saved  in  a .h5format.  The  recorded  training  statistics  foreach  communication  round,  such  as  the  accuracy  and  loss of  the  clients  model  and  server  model,  are  stored  in  the trainingStats folder. The  results  regarding  the Global accuracy and  the  detail of  the  server  model  can  be  found  on  the  generated Server-Measure.csv file.  Results  for  the Personalization accuracy can   be   found   in   the indivualClients Measure.csv file   and finally  the Generalization accuracy can  be  found  at  the AllClientsMeasure.csv file.
+
 ### Sample script sequence
 ```
 1.DATA_UCI.ipynb
