@@ -9,7 +9,7 @@ The FedDist algorithm incorporates a pair-wise distance scheme for identifying o
 
 ### Core Dependencies (tested and stable)
 ---
-* Tensorflow 2.1.0
+* Tensorflow 2.1.2
 * PyTorch 1.1
 * scikit-learn 0.22.1
 

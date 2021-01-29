@@ -102,7 +102,7 @@ six==1.14.0
 sklearn==0.0
 soupsieve==2.0.1
 tensorboard==2.1.1
-tensorflow==2.1.0
+tensorflow==2.1.2
 tensorflow-addons==0.8.3
 tensorflow-estimator==2.1.0
 tensorflow-federated==0.13.1
