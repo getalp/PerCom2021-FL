@@ -30,7 +30,7 @@ FedMA is found in the "FedMA_GPU_CPU.ipynb" file.
 
 For all the federated algorithms, the second cell gives a variety of options and testing environment to choose from. We recommend leaving the configuration in default other than changing the "algorithm" variable and specifying the GPU/CPU to use. Simply run all cells to start training. 
 
-If preferred to run as a python script, convert the files to a .py format VIA Jupiter notebook (FILES -> Download as -> Python (.py). 
+If preferred to run as a python script, convert the files to a .py format VIA Jupiter notebook (FILES -> Download as -> Python (.py)). 
 
 Additionally with the command below from a console achieves the same result:
 ```
