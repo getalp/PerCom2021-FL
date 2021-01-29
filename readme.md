@@ -22,13 +22,13 @@ There is an array of 3rd party packages that is necessary for the entirety of th
 
 ### FL script implementations
 ---
-The FedAvg and FedPer implementations are found in the file "FedAvg_FedPer_GPU_CPU.ipynb". You must specify which algorithm you which to run in the second cell of the notebook by changing the "algorithm" variable to either "FEDAVG" or "FEDPER"
+The FedAvg and FedPer implementations are found in the file "FedAvg_FedPer_GPU_CPU.ipynb". You must specify which algorithm you which to run in the third cell of the notebook by changing the "algorithm" variable to either "FEDAVG" or "FEDPER"
 
 FedDist is found in "FedDist_CPU.ipynb" and can only trained on CPU otherwise will run to a memory allocation problem when on GPU. This is due to a lack of memory management on a code-level.
 
 FedMA is found in the "FedMA_GPU_CPU.ipynb" file.
 
-For all the federated algorithms, the second cell gives a variety of options and testing environment to choose from. We recommend leaving the configuration in default other than changing the "algorithm" variable and specifying the GPU/CPU to use. Simply run all cells to start training. 
+For all the federated algorithms, the third cell gives a variety of options and testing environment to choose from. We recommend leaving the configuration in default other than changing the "algorithm" variable and specifying the GPU/CPU to use. Simply run all cells to start training. 
 
 If preferred to run as a python script, convert the files to a .py format VIA Jupiter notebook (FILES -> Download as -> Python (.py)). 
 
@@ -37,7 +37,7 @@ Additionally with the command below from a console achieves the same result:
 jupyter nbconvert --to script '[ScriptName].ipynb'
 
 ```
-Simply specify the wanted parameters in the second cell beforehand. 
+Simply specify the wanted parameters in the third cell beforehand. 
 
 ### Results Interpretability
 ---
