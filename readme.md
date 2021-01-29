@@ -4,6 +4,7 @@ This is the code accompanying the Percom2021 paper "A Federated Learning Aggrega
 
 ### Overview
 ---
+This experiments compares 3 federated learning algorithms along with a new one, FedDist.
 The FedDist algorithm incorporates a pair-wise distance scheme for identifying outlier-like neurons/filters.  These outlier-like neurons/filter may be in fact features learned from sparse data and so it is directly added to the server model for the next round of training.
 
 ### Core Dependencies (tested and stable)
