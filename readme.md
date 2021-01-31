@@ -1,6 +1,6 @@
 
 ## Federated Distance (FedDist)
-This is the code accompanying the Percom2021 paper "A Federated Learning Aggregation Algorithm for Pervasive Computing: Evaluation and Comparison" and the code of federated learning experiment by Sannara Ek during his master thesis.
+This is the code accompanying the Percom2021 paper "A Federated Learning Aggregation Algorithm for Pervasive Computing: Evaluation and Comparison" and the code of federated learning experiments by Sannara Ek during his master thesis.
 
 ### Overview
 ---
