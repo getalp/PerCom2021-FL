@@ -9,7 +9,7 @@ The FedDist algorithm incorporates a pair-wise distance scheme for identifying o
 
 ### Core Dependencies (tested and stable)
 ---
-* Tensorflow 2.1.2
+* Tensorflow 2.2.2
 * PyTorch 1.1
 * scikit-learn 0.22.1
 
@@ -23,11 +23,11 @@ There is an array of 3rd party packages that is necessary for the entirety of th
 
 ### FL script implementations
 ---
-The FedAvg and FedPer implementations are found in the file "FedAvg_FedPer_GPU_CPU.ipynb". You must specify which algorithm you which to run in the third cell of the notebook by changing the "algorithm" variable to either "FEDAVG" or "FEDPER"
+The FedAvg and FedPer implementations are found in the file "FedAvg_FedPer.ipynb". You must specify which algorithm you which to run in the third cell of the notebook by changing the "algorithm" variable to either "FEDAVG" or "FEDPER"
 
-FedDist is found in "FedDist_CPU.ipynb" and can only trained on CPU otherwise will run to a memory allocation problem when on GPU. This is due to a lack of memory management on a code-level.
+FedDist is found in the "FedDist.ipynb" file.
 
-FedMA is found in the "FedMA_GPU_CPU.ipynb" file.
+FedMA is found in the "FedMA.ipynb" file.
 
 For all the federated algorithms, the third cell gives a variety of options and testing environment to choose from. We recommend leaving the configuration in default other than changing the "algorithm" variable and specifying the GPU/CPU to use. Simply run all cells to start training. 
 
@@ -42,14 +42,14 @@ Simply specify the wanted parameters in the third cell beforehand.
 
 ### Results Interpretability
 ---
-All results of each experiments shall generated the "savedModels" folder. Within this folder will contain subfolders with the name of the chosen configuration and model architecture of the experiment. Additionally, within each model architecture folder will contain the another subfolder with the name of the dataset used for the experiment. E.g a directory should appear like:
+All results of each experiments shall generate the "savedModels" folder. Within this folder will contain subfolders with the name of the chosen configuration and model architecture of the experiment. Additionally, within each model architecture folder will contain the another subfolder with the name of the dataset used for the experiment. E.g a directory should appear like:
 ```
 ./savedModels/FED_5C_10LE_50CR_400D_100D_BALANCED/UCI
 ```
 
 Now within this folder:
 
-The  final  server  model  is  saved  in  a .h5format.  The  recorded  training  statistics  foreach  communication  round,  such  as  the  accuracy  and  loss of  the  clients  model  and  server  model,  are  stored  in  the trainingStats folder. The  results  regarding  the Global accuracy and  the  detail of  the  server  model  can  be  found  on  the  generated Server-Measure.csv file.  Results  for  the Personalization accuracy can   be   found   in   the indivualClients Measure.csv file   and finally  the Generalization accuracy can  be  found  at  the AllClientsMeasure.csv file.
+The  final  server  model  is  saved  in  a .h5 format.  The  recorded  training  statistics  foreach  communication  round,  such  as  the  accuracy  and  loss of  the  clients  model  and  server  model,  are  stored  in  the trainingStats folder. The  results  regarding  the Global accuracy and  the  detail of  the  server  model  can  be  found  on  the  generated Server-Measure.csv file.  Results  for  the Personalization accuracy can   be   found   in   the indivualClients Measure.csv file   and finally  the Generalization accuracy can  be  found  at  the AllClientsMeasure.csv file.
 
 ### Sample script sequence:
 ---
@@ -59,7 +59,7 @@ An example of execution would be to first download and format the dataset (UCI a
 ```
 1.DATA_UCI.ipynb
 2.DATA_REALWORLD_SPLITSUB.ipynb
-3.FedAvg_FedPer_GPU_CPU.ipynb/FedDist_CPU.ipynb/FedMA_GPU_CPU.ipynb
+3.FedAvg_FedPer.ipynb/FedDist.ipynb/FedMA.ipynb
 
 ```
 ### Citing this work:
