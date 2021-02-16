@@ -17,6 +17,9 @@ All the working scripts are presented in a Jupiter notebook file format.
 
 There is an array of 3rd party packages that is necessary for the entirety of the scripts to run. It is recommended to run command "pip3 install -r requirements.txt" in your virtual environment and working directory to replicate the environments used in this experiment.
 
+!Note!
+Visual Studio is required to solve dependency problems when working on a Windows Machine
+
 ### Data Preparation
 ---
 "DATA_UCI.ipynb" and "DATA_REALWORLD_SPLITSUB.ipynb" are respectively used to prepare the UCI and REALWORLD dataset for training. Simply run all cells in a Jupyter notebook. The formatted dataset will be placed in a new directory "datasetStand"
