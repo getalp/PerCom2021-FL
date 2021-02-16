@@ -47,6 +47,7 @@ Keras==2.3.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 kiwisolver==1.1.0
+lapsolver==1.1.0
 lockfile==0.12.2
 lxml==4.5.1
 Markdown==3.2.1
